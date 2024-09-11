@@ -11,11 +11,18 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 75vh;
+	height: 85vh;
 
 	* {
 		box-sizing: border-box;
 	}
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .size-match {
