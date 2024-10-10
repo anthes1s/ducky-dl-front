@@ -16,6 +16,9 @@ function main() {
 
 			const url = await fetch("/api/download", {
 				method: "POST",
+				headers: {
+					"Content-Type": "application/json,"
+				},
 				body: JSON.stringify({
 					"link": link.value,
 				})
